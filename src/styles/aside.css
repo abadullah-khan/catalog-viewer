@@ -1,0 +1,36 @@
+.asideComponent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.asideComponent header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 100vh;
+}
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #707070;
+}
+header p {
+  font-weight: 300;
+  color: #b4b3b3;
+}
+.asideComponent footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25beda;
+  border-radius: 50%;
+  color: white;
+}

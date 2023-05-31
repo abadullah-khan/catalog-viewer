@@ -1,0 +1,132 @@
+@media (min-width: 1200px) {
+  .mainComponent header {
+    height: 140vh;
+  }
+  .mainComponent footer .imagesContainer img {
+    height: 18vh;
+    width: 10vw;
+  }
+  .asideComponent header {
+    min-height: 140vh;
+  }
+  .asideComponent header h1 {
+    font-size: 2.7rem;
+  }
+  .asideComponent header p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .asideComponent header h1 {
+    font-size: 2.4rem;
+  }
+  .asideComponent header p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .mainComponent header {
+    height: 80vh;
+  }
+  .asideComponent header {
+    min-height: 80vh;
+  }
+  .asideComponent header h1 {
+    font-size: 2.4rem;
+  }
+  .asideComponent header p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 810px) {
+  .mainComponent header {
+    height: 70vh;
+  }
+  .asideComponent header {
+    min-height: 70vh;
+  }
+  .asideComponent header h1 {
+    font-size: 2.3rem;
+  }
+  .asideComponent header p {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 790px) {
+  .mainComponent header {
+    height: 60vh;
+  }
+  .asideComponent header {
+    min-height: 60vh;
+    gap: 1rem;
+  }
+  .asideComponent header p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 550px) {
+  .mainComponent footer .imagesContainer img {
+    height: 6rem;
+    width: 6rem;
+  }
+  .asideComponent header h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .mainComponent header {
+    height: 50vh;
+  }
+  .asideComponent header {
+    gap: 0.5rem;
+    min-height: 50vh;
+  }
+  .asideComponent header p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 430px) {
+  .app {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  .mainComponent {
+    gap: 0.5rem;
+  }
+  .mainComponent header {
+    height: 40vh;
+  }
+  .mainComponent footer .imagesContainer img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .asideComponent header {
+    min-height: 40vh;
+  }
+  .asideComponent header h1 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 380px) {
+  .mainComponent footer .imagesContainer img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+@media (max-width: 340px) {
+  .mainComponent header {
+    height: 35vh;
+  }
+  .asideComponent header {
+    gap: 0.5rem;
+    min-height: 35vh;
+  }
+  .asideComponent header h1 {
+    font-size: 1rem;
+  }
+  .asideComponent header p {
+    font-size: 0.5rem;
+  }
+}
