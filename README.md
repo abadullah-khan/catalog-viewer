@@ -11,7 +11,8 @@ This is a catalog viewer application built with React, TypeScript and Material U
 
 ## Installation
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine:
+   catalog-viewer
 
 2.Navigate to the project directory:
 cd catalog-viewer
